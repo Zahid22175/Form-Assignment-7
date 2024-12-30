@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>User Registration Form</h1>
+
+    <form action="./Images/Thank you!.png">
+        <!-- Name Section  -->
+        Name: <input placeholder="Name" type="text"> <br><br>
+        Last Name: <input placeholder="Last Name" type="text"> <br><br>
+
+        <!-- Password section -->
+        Password: <input placeholder="Password" type="password"> <br><br>
+
+        <!-- Bio Section -->
+        Bio: <textarea name="Bio" cols="30" rows="5" placeholder="Enter your Bio"></textarea> <br><br>
+
+        <!-- Gender Section -->
+        Gender: <br><br> <input type="radio" name="Gender" value="Male" id="male" required><label
+            for="male">Male</label> <br>
+        <input type="radio" name="Gender" value="Female" id="female" required><label for="female">Female</label> <br>
+        <input type="radio" name="Gender" value="Other" id="Other" required><label for="Other">Other</label> <br><br>
+
+        <!-- Interests Section-->
+        Interests: <br><br> <input type="checkbox" name="Interests" id=""><label for="">Music</label> <br>
+        <input type="checkbox" name="Interests" id=""><label for="">Sports</label> <br>
+        <input type="checkbox" name="Interests" id=""><label for="">Reading</label> <br><br>
+
+        <!-- Country Section Section-->
+        Country: <Select>
+            <option selected disabled>Select Country</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Japan">Japan</option>
+            <option value="South Korea">South Korea</option>
+            <option value="Brazil">Brazil</option>
+        </Select> <br><br>
+
+        <!-- Preferred Colors Section-->
+        Preferred Colors:
+        <select name="instruments" size="3" multiple="multiple">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Blue">Blue</option>
+            <option value="Pink">Pink</option>
+        </select> <br><br>
+
+        <!-- Profile Picture Section-->
+        Profile Picture:
+        <input type="file" name="Profile Picture" required> <br><br>
+
+        <!-- Birthdate Section-->
+        Birthdate:
+        <input type="date" name="date"> <br><br>
+
+        <!-- Email Section-->
+        Email:
+        <input placeholder="Email" type="email" name="email" required> <br><br>
+
+        <!-- Website Section-->
+        Website:
+        <input placeholder="Website" type="Website" name="Website"> <br><br>
+
+        <!-- Search Section-->
+        Search:
+        <input placeholder="search" type="search" name="search"> <br><br>
+
+        <!-- Submite Button Section -->
+        <input type="submit" name="submit">
+    </form> <br><br>
+
+</body>
+
+</html>
